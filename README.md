@@ -2,11 +2,24 @@
 
 Guess The Flag is a simple iOS game built using SwiftUI where players are presented with three flags of different countries and have to guess the correct one based on the country name provided. The game tracks the player's score and presents feedback for each guess.
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="screenshots/GuessTheFlag.png" alt="GuessTheFlag" width="200"/>
-    <img src="screenshots/correct_answer.png" alt="Correct Answer" width="200"/>
-    <img src="screenshots/wrong_answer.png" alt="Wrong Answer" width="200"/>
+<div class="screenshot-container">
+    <img src="screenshots/GuessTheFlag.png" alt="GuessTheFlag" />
+    <img src="screenshots/correct_answer.png" alt="Correct Answer" />
+    <img src="screenshots/wrong_answer.png" alt="Wrong Answer" />
 </div>
+
+<style>
+    .screenshot-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .screenshot-container img {
+        max-width: 100%;
+        height: auto;
+}
+</style>
 
 ## Features
 
